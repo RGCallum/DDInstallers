@@ -11,6 +11,10 @@
     color: rgb(255, 188, 17);
     /* font-size: 35px; */
 }
+#smbox{
+    width: 100%;
+}
+
 .fas fa-tools{
     color: black !important;
 }
@@ -19,7 +23,7 @@
 }
 .navbar{
     color: black;
-    background-color: transparent !important;
+    background-color: rgba(255, 255, 255, 0.132) !important;
     position: absolute;
 }
 
@@ -114,5 +118,5 @@ position: absolute;
       text-align: center;
   }
   .col-sm{
-      border-left: 1px solid grey;
+      /* border-bottom: 1px solid grey; */
   }
