@@ -7,6 +7,9 @@
     overflow-x: hidden;
     color: white;
 } */
+.lft{
+    /* background-color: rgb(223, 222, 222); */
+}
 .drop{
     color: rgb(255, 188, 17);
     /* font-size: 35px; */
@@ -33,7 +36,7 @@
     background-image: url('./Images/peoplewatchtvLiondark.png');
     /* background-image: url('./Images/francesca-tosolini-3LjBfGTbTJY-unsplash.jpg'); */
     background-size: cover;
-height: 750px;
+height: 700px;
 background-repeat: no-repeat;
 /* text-align: center; */
 }
@@ -80,7 +83,7 @@ position: absolute;
 
 @keyframes rotate-in-center {
     0% {
-        transform: rotate(-1440deg);
+        transform: rotate(-1800deg);
         opacity: 0;
     }
     100% {
