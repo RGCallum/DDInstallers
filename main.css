@@ -164,6 +164,12 @@ iframe {
         /* border-radius: 5px; */
         width: 90%;
     }
+    iframe {
+        width: 500px;
+        margin-left: 120px;
+        margin-top: 20%;
+
+    }
 }
 
 @media only screen and (max-width: 572px) {
@@ -172,5 +178,11 @@ iframe {
     }
     #rtTextTop {
         display: block;
+    }
+    iframe {
+        width: 400px;
+        margin-left: auto;
+        margin-top: 20%;
+
     }
 }
