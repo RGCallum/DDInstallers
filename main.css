@@ -26,8 +26,9 @@
 }
 
 #navLogo {
-    width: 7%;
+    width: 8%;
     /* position: absolute; */
+    
 }
 
 .navbar {
@@ -171,6 +172,9 @@ iframe {
         margin-top: 20%;
 
     }
+    #navLogo{
+        
+    }
 }
 
 @media only screen and (max-width: 572px) {
@@ -186,4 +190,5 @@ iframe {
         margin-top: 20%;
 
     }
+
 }
