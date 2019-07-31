@@ -7,47 +7,60 @@
     overflow-x: hidden;
     color: white;
 } */
-.lft{
+
+.lft {
     /* background-color: rgb(223, 222, 222); */
 }
-.drop{
+
+.drop {
     color: rgb(255, 188, 17);
     /* font-size: 35px; */
 }
-#smbox{
+
+#smbox {
     width: 100%;
 }
 
-.fas fa-tools{
+.fas fa-tools {
     color: black !important;
 }
+
 #navLogo {
     width: 7%;
-}
-.navbar{
-    color: black;
-    background-color: rgba(0, 0, 0, 0.132) !important;
-    position: absolute;
+    /* position: absolute; */
 }
 
-.jumbotron{
+.navbar {
+    /* background-color: rgba(255, 255, 255, 0.296) !important; */
+    z-index: 100;
+    position: fixed;
+}
+
+.jumbotron {
     color: rgb(255, 188, 17);
     text-shadow: 2px 2px 2px black;
     background-image: url('./Images/peoplewatchtvLiondark.png');
-    /* background-image: url('./Images/francesca-tosolini-3LjBfGTbTJY-unsplash.jpg'); */
+    /* background-position: center left -30px; */
     background-size: cover;
-height: 700px;
-background-repeat: no-repeat;
-/* text-align: center; */
+    height: 700px;
+    background-repeat: no-repeat;
+    text-align: center;
 }
-.jumbotron jumbotron-fluid{
-    
+
+.container {
+    /* background-color: rgba(0, 0, 0, 0.283); */
+    border-radius: 5px;
+    width: 40%;
 }
-#clrWarnBtn{
+
+.jumbotron jumbotron-fluid {}
+
+#clrWarnBtn {
     text-shadow: none;
-background-color: rgba(255, 188, 17, 0.317) !important;
-color: black;
+    background-color: rgba(255, 188, 17, 0.317) !important;
+    color: black;
 }
+
 #bodyLogo {
     width: 20%;
 }
@@ -56,22 +69,24 @@ body {
     /* background-color: black; */
     color: black;
 }
-h1{
+
+h1 {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: underline;
 }
 
-.serv{
+.serv {
     color: white;
 }
-#sparks{
-z-index: -100;
-width: 100%;
-display: block;
-margin: auto;
-position: absolute;
 
+#sparks {
+    z-index: -100;
+    width: 100%;
+    display: block;
+    margin: auto;
+    position: absolute;
 }
+
 #splashLogo {
     width: 70%;
     z-index: 100;
@@ -109,20 +124,53 @@ position: absolute;
     }
   } */
 
-  .contact{
+.contact {
     background-image: url('./Images/tvBrick.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     overflow-x: hidden;
-  }
-  iframe{
+}
+
+iframe {
     margin-top: 8%;
     margin-left: 20%;
-  }
-  .row{
-      text-align: center;
-  }
-  .col-sm{
-      /* border-bottom: 1px solid grey; */
-  }
+}
+
+.row {
+    text-align: center;
+}
+
+.col-sm {
+    /* border-bottom: 1px solid grey; */
+}
+
+#rtTextTop {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .display-6 {
+        margin-top: 15%;
+    }
+    .jumbotron {
+        background-color: transparent !important;
+        background-image: url('./Images/tvBrick.jpg');
+        background-position: center right -150px;
+        text-align: center;
+    }
+    .container {
+        /* background-color: rgba(0, 0, 0, 0.283); */
+        /* border-radius: 5px; */
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 572px) {
+    #rtText {
+        display: none;
+    }
+    #rtTextTop {
+        display: block;
+    }
+}
