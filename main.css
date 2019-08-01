@@ -46,6 +46,7 @@
     height: 700px;
     background-repeat: no-repeat;
     text-align: center;
+background-attachment: fixed;
 }
 
 .container {
