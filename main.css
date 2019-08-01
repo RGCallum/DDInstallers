@@ -71,9 +71,9 @@ body {
     color: black;
 }
 
-h1 {
+h2 {
     font-family: Arial, Helvetica, sans-serif;
-    /* text-decoration: underline; */
+    font-weight: 900;
 }
 
 .serv {
