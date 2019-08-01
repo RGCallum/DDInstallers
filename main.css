@@ -40,7 +40,7 @@
 .jumbotron {
     color: rgb(255, 188, 17);
     text-shadow: 2px 2px 2px black;
-    background-image: url('./Images/peoplewatchtvLiondark.png');
+    background-image: url('./Images/peoplewatchtvLiondarker.png');
     /* background-position: center left -30px; */
     background-size: cover;
     height: 700px;
@@ -73,7 +73,7 @@ body {
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 .serv {
@@ -126,7 +126,7 @@ h1 {
   } */
 
 .contact {
-    background-image: url('./Images/tvBrick.jpg');
+        background-image: url('./Images/tvBrickDark.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -156,7 +156,7 @@ iframe {
     }
     .jumbotron {
         background-color: transparent !important;
-        background-image: url('./Images/tvBrick.jpg');
+        background-image: url('./Images/tvBrickDark.png');
         background-position: center right -150px;
         text-align: center;
     }
