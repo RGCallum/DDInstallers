@@ -1,9 +1,6 @@
-document.getElementById('circSaw').play();
+// document.getElementById('circSaw').play();
 
-// document.addEventListener('DOMContentLoaded', function() {
-//     var elems = document.querySelectorAll('.sidenav');
-//     var instances = M.Sidenav.init(elems, options);
-//   });
+
 
   // Or with jQuery
 
@@ -11,3 +8,9 @@ document.getElementById('circSaw').play();
     $('.sidenav').sidenav();
   });
        
+  window.onload = function() {
+    document.getElementById('button').onclick = function() {
+      document.getElementById('modalOverlay').style.display = 'none'
+    };
+
+}

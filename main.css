@@ -89,12 +89,13 @@ h2 {
 }
 
 #splashLogo {
-    width: 70%;
+    width: 100%;
     z-index: 100;
     /* position: absolute; */
     animation: rotate-in-center 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     display: block;
     margin: auto;
+    /* cursor: pointer; */
 }
 
 @keyframes rotate-in-center {
@@ -192,3 +193,44 @@ iframe {
     }
 
 }
+
+#modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(0, 0, 0);
+    z-index: 99999;
+    height: 100%;
+    width: 100%;
+}
+.modalPopup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 0 30px;
+}
+.modalContent {padding: 0 2em;}
+
+
+
+p {margin: .75em 0 1.5em;}
+.buttonStyle {
+/* border: transparent; */
+border-radius: 5px;
+background: rgb(255, 188, 17);
+color: black !important;
+cursor: pointer;
+font-weight: bold;
+font-size: 14px;
+padding: 6px 25px;
+text-decoration: none;
+margin-left: 40%;
+position: relative;
+}
+.buttonStyle:hover {
+background: #1e1e1e;
+color: rgb(255, 188, 17) !important;
+}
+
+
