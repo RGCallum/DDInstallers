@@ -16,7 +16,10 @@
     color: rgb(255, 188, 17);
     /* font-size: 35px; */
 }
-
+.display-6 {
+    margin-top: 15%;
+    
+}
 #smbox {
     width: 100%;
 }
@@ -45,14 +48,15 @@
     background-size: cover;
     height: 700px;
     background-repeat: no-repeat;
-    text-align: center;
+    /* text-align: center; */
 background-attachment: fixed;
 }
 
 .container {
     /* background-color: rgba(0, 0, 0, 0.283); */
     border-radius: 5px;
-    width: 40%;
+    width: 60%;
+    margin-left: 5%;
 }
 
 cursor-pointer {
@@ -69,13 +73,15 @@ cursor-pointer {
     text-shadow: none;
     background-color: rgba(255, 188, 17) !important;
     color: black;
-    
+    border: 1px 1px 1px white !important;
+
 }
 
 #clrWarnBtn:hover {
     text-shadow: none;
-    background-color: #1e1e1e !important;
+    background-color: #ffffff !important;
     color: rgba(255, 188, 17);
+    /* text-shadow: 1px 1px 1px black; */
 }
 #bodyLogo {
     width: 20%;
@@ -86,10 +92,14 @@ body {
     color: black;
 }
 
-h2 {
+h2, h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
+    font-size: 300%;
   
+}
+h1{
+    color: white;
 }
 
 .serv {
@@ -167,13 +177,13 @@ iframe {
         background-color: transparent !important;
         background-image: url('./Images/tvBrickDark.png');
         background-position: center right -150px;
-        text-align: center;
+        /* text-align: center; */
     }
 
     .container {
         /* background-color: rgba(0, 0, 0, 0.283); */
         /* border-radius: 5px; */
-        width: 90%;
+        width: 100%;
     }
     iframe {
         width: 500px;
@@ -237,7 +247,6 @@ p {margin: .75em 0 1.5em;}
 border-radius: 5px;
 background: rgb(255, 188, 17);
 color: black !important;
-cursor: url(./images/hammersmall.png), auto;
 font-weight: bold;
 font-size: 14px;
 padding: 6px 25px;
