@@ -2,7 +2,7 @@
     margin-left: 50%;
     margin-top: 10%;
     animation: bounce 1.5s infinite;
-background-attachment: fixed;
+/* background-attachment: fixed; */
 }
 @keyframes bounce{
     0%{
