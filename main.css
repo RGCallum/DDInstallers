@@ -285,16 +285,19 @@ iframe {
 
 @media only screen and (max-width: 572px) {
     #rtText {
-        display: none;
+        /* display: none; */
     }
     #rtTextTop {
-        display: block;
+        /* display: block; */
     }
     iframe {
         width: 400px;
         margin-left: auto;
         margin-top: 20%;
 
+    }
+    h3{
+        font-size: 20px;
     }
 
 }
