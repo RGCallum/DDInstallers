@@ -1,3 +1,9 @@
+body {
+    background-image: url('./Images/Light-paper-fibers-Seamless-Pattern.jpg');
+    background-attachment: fixed;
+    background-size: 20%;
+    /* background-repeat: no-repeat; */
+}
 #arrowDn {
     margin-left: 50%;
     margin-top: 10%;
@@ -12,12 +18,7 @@
     }
 }
 
-.daBkgd {
-    /* background-image: url('./Images/auxcord.png'); */
-    background-attachment: fixed;
-    background-size: 90%;
-    background-repeat: no-repeat;
-}
+
 
 #tvText {
     /* border-radius: 5px; */
