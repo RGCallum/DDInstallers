@@ -1,30 +1,30 @@
-#arrowDn{
+#arrowDn {
     margin-left: 50%;
     margin-top: 10%;
     animation: bounce 1.5s infinite;
-/* background-attachment: fixed; */
+    /* background-attachment: fixed; */
 }
-@keyframes bounce{
-    0%{
-      
-    }
-    50%{
-      transform: translate(0, 8px);
-    }
 
-  }
-.daBkgd{
+@keyframes bounce {
+    0% {}
+    50% {
+        transform: translate(0, 8px);
+    }
+}
+
+.daBkgd {
     /* background-image: url('./Images/auxcord.png'); */
     background-attachment: fixed;
     background-size: 90%;
-background-repeat: no-repeat;
+    background-repeat: no-repeat;
 }
-#tvText{
 
-  /* border-radius: 5px; */
-  /* background: rgba(240,230,220, .7);
+#tvText {
+    /* border-radius: 5px; */
+    /* background: rgba(240,230,220, .7);
   box-shadow: 0 0 8px rgba(0, 0, 0, .7); */
 }
+
 .lft {
     /* background-color: rgb(223, 222, 222); */
 }
@@ -33,14 +33,14 @@ background-repeat: no-repeat;
     color: rgb(255, 188, 17);
     /* font-size: 35px; */
 }
+
 .display-6 {
     margin-top: 15%;
-    
 }
+
 #smbox {
     width: 100%;
     box-shadow: 0 0 8px rgba(0, 0, 0, .7);
-
 }
 
 .fas fa-tools {
@@ -50,33 +50,37 @@ background-repeat: no-repeat;
 #navLogo {
     width: 8%;
     /* position: absolute; */
-    
 }
 
-.navbar-brand{
+.navbar-brand {
     color: rgb(249, 178, 0) !important;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.337);
     font-size: 20px !important;
 }
-a{
+
+a {
     color: rgb(249, 178, 0) !important;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.337);
 }
-.navbar-toggler{
+
+.navbar-toggler {
     background-color: rgb(249, 178, 0) !important;
 }
+
 .navbar {
-    background-color: rgba(255, 255, 255, 0.098) !important;
+    background-color: rgba(0, 0, 0, 0.500) !important;
     z-index: 100;
     position: fixed;
     height: 80px;
-    
 }
-.dropdown-menu{
-    background-color: rgba(255, 255, 255, 0.098) !important;
-border: none;
 
+.dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.500) !important;
+    border: none;
+}
 
+.dropdown-item:active {
+    background-color: black !important;
 }
 
 .jumbotron {
@@ -90,6 +94,7 @@ border: none;
     /* text-align: center; */
     background-attachment: fixed;
 }
+
 /*
  #tvPic{
     width: 100px;
@@ -152,6 +157,7 @@ border: none;
     background-image: url('./Images/SmartMirror.jpg');
     background-attachment: fixed;
 } */
+
 .container {
     /* background-color: rgba(0, 0, 0, 0.283); */
     border-radius: 5px;
@@ -163,18 +169,13 @@ cursor-pointer {
     cursor: url(./images/hammersmallshadflip.png), auto;
 }
 
-
-
-.jumbotron jumbotron-fluid {
-    
-}
+.jumbotron jumbotron-fluid {}
 
 #clrWarnBtn {
     text-shadow: none;
     background-color: rgba(255, 188, 17) !important;
     color: black !important;
     border: 1px 1px 1px white !important;
-
 }
 
 #clrWarnBtn:hover {
@@ -183,6 +184,7 @@ cursor-pointer {
     color: rgba(255, 188, 17);
     /* text-shadow: 1px 1px 1px black; */
 }
+
 #bodyLogo {
     width: 20%;
 }
@@ -196,9 +198,9 @@ h2, h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
     font-size: 300%;
-  
 }
-h1{
+
+h1 {
     color: white;
 }
 
@@ -213,8 +215,6 @@ h1{
     margin: auto;
     position: absolute;
 }
-
-
 
 @keyframes rotate-in-center {
     0% {
@@ -245,7 +245,7 @@ h1{
   } */
 
 .contact {
-        background-image: url('./Images/tvBrickDark.png');
+    background-image: url('./Images/tvBrickDark.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -269,112 +269,6 @@ iframe {
 #rtTextTop {
     display: none;
 }
-@media only screen and (max-width: 992px){
-    .navbar-toggler{
-        margin-left: 90%;
-        margin-top: -11%;
-        }
-        .nav-item{
-
-            margin-left: 70%;
-
-        }
-        .dropdown-menu{
-            margin-left: 5%;
-        }
-        .navbar {
-           
-}
-}
-@media only screen and (max-width: 768px) {
-    .display-6 {
-        margin-top: 35%;
-    }
-    .jumbotron {
-        background-color: transparent !important;
-        background-image: url('./Images/tvBrickDark.png');
-        background-position: center right -150px;
-        /* text-align: center; */
-    }
-
-    .container {
-        /* background-color: rgba(0, 0, 0, 0.283); */
-        /* border-radius: 5px; */
-        width: 70%;
-    }
-    iframe {
-        width: 500px;
-        margin-left: 120px;
-        margin-top: 20%;
-
-    }
-    .modalContent {
-        width: 150%;
-        margin-left: -20%;
-    }
-    h1{
-        font-size: 250%;
-    }
-    .nav-item{
-        padding-left: 35px;
-
-        margin-left: 60%;
-        background-color: rgb(0, 0, 0, 0.933) !important;
-
-    }
-    .dropdown-menu{
-        margin-left: -13%;
-        background-color: rgba(0, 0, 0, 0.933) !important;
-        
-    }
-    .navbar {
-        background-color: rgb(0, 0, 0, 0.933) !important;
-       
-}
-
-
-}
-
-
-@media only screen and (max-width: 572px) {
-    #rtText {
-        /* display: none; */
-    }
-    #rtTextTop {
-        /* display: block; */
-    }
-    iframe {
-        width: 400px;
-        margin-left: auto;
-        margin-top: 20%;
-
-    }
-    h3{
-        font-size: 20px;
-    }
-
-}
-@media only screen and (max-width: 414px){
-    .navbar-toggler{
-        margin-left: 75%;
-        margin-top: -15%;
-        }
-       
-        .nav-item{
-            padding-left: 15px;
-
-            margin-left: 70%;
-            background-color: rgb(0, 0, 0, 0.933) !important;
-
-        }
-        .dropdown-menu{
-            margin-left: -175%;
-            background-color: rgba(0, 0, 0, 0.933) !important;
-        }
-        .navbar {
-            background-color: rgb(0, 0, 0, 0.933) !important;
-           
-}
 
 #splashLogo {
     width: 100%;
@@ -393,6 +287,7 @@ iframe {
     height: 100%;
     width: 100%;
 }
+
 .modalPopup {
     position: absolute;
     top: 50%;
@@ -400,28 +295,130 @@ iframe {
     transform: translate(-50%, -50%);
     padding: 0 0 30px;
 }
-.modalContent {padding: 0 2em;}
 
+.modalContent {
+    padding: 0 2em;
+}
 
+p {
+    margin: .75em 0 1.5em;
+}
 
-p {margin: .75em 0 1.5em;}
 .buttonStyle {
-/* border: transparent; */
-border-radius: 5px;
-background: rgb(255, 188, 17);
-color: black !important;
-font-weight: bold;
-font-size: 14px;
-padding: 6px 25px;
-text-decoration: none;
-margin-left: 40%;
-position: relative;
+    /* border: transparent; */
+    border-radius: 5px;
+    background: rgb(255, 188, 17);
+    color: black !important;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 6px 25px;
+    text-decoration: none;
+    margin-left: 41%;
+    position: relative;
 }
+
 .buttonStyle:hover {
-background: #1e1e1e;
-color: rgb(255, 188, 17) !important;
+    background: #1e1e1e;
+    color: rgb(255, 188, 17) !important;
 }
 
+/* media queries */
 
+@media only screen and (max-width: 992px) {
+    .navbar-toggler {
+        margin-left: 90%;
+        margin-top: -11%;
+    }
+    .nav-item {
+        margin-left: 70%;
+    }
+    .dropdown-menu {
+        margin-left: 5%;
+    }
+    .navbar {}
+}
+
+@media only screen and (max-width: 768px) {
+    .buttonStyle {
+        margin-left: 40%;
+    }
+    .display-6 {
+        margin-top: 35%;
+    }
+    .jumbotron {
+        background-color: transparent !important;
+        background-image: url('./Images/tvBrickDark.png');
+        background-position: center right -150px;
+        /* text-align: center; */
+    }
+    .container {
+        /* background-color: rgba(0, 0, 0, 0.283); */
+        /* border-radius: 5px; */
+        width: 70%;
+    }
+    iframe {
+        width: 500px;
+        margin-left: 120px;
+        margin-top: 20%;
+    }
+    .modalContent {
+        width: 150%;
+        margin-left: -20%;
+    }
+    h1 {
+        font-size: 250%;
+    }
+    .nav-item {
+        padding-left: 35px;
+        margin-left: 60%;
+        background-color: rgb(0, 0, 0, 0.933) !important;
+    }
+    .dropdown-menu {
+        margin-left: -13%;
+        background-color: rgba(0, 0, 0, 0.933) !important;
+    }
+    .navbar {
+        background-color: rgb(0, 0, 0, 0.933) !important;
+    }
 
 }
+
+@media only screen and (max-width: 572px) {
+    #rtText {
+        /* display: none; */
+    }
+    #rtTextTop {
+        /* display: block; */
+    }
+    iframe {
+        width: 400px;
+        margin-left: auto;
+        margin-top: 20%;
+    }
+    h3 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .navbar-toggler {
+        margin-left: 75%;
+        margin-top: -15%;
+    }
+    .nav-item {
+        padding-left: 15px;
+        margin-left: 70%;
+        background-color: rgb(0, 0, 0, 0.933) !important;
+    }
+    .dropdown-menu {
+        margin-left: -175%;
+        background-color: rgba(0, 0, 0, 0.933) !important;
+    }
+    .navbar {
+        background-color: rgb(0, 0, 0, 0.933) !important;
+    }
+    .buttonStyle {
+        margin-left: 20%;
+    }
+}
+
