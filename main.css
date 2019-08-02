@@ -4,6 +4,9 @@ body {
     background-size: 20%;
     /* background-repeat: no-repeat; */
 }
+p{
+    padding: 5%;
+}
 #arrowDn {
     margin-left: 50%;
     margin-top: 10%;
