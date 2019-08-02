@@ -1,17 +1,29 @@
-/* #mainBody {
-    background-image: url('./Images/peoplewatchtvLiondark.png');
-    background-size: 120%;
-    background-repeat: no-repeat;
-    background-position: auto;
-    position: relative;
-    overflow-x: hidden;
-    color: white;
-} */
-.daBkgd{
-    /* background-image: url('./Images/squares.gif'); */
-    background-attachment: fixed;
-    background-size: 100%;
+#arrowDn{
+    margin-left: 50%;
+    margin-top: 10%;
+    animation: bounce 1.5s infinite;
+background-attachment: fixed;
+}
+@keyframes bounce{
+    0%{
+      
+    }
+    50%{
+      transform: translate(0, 8px);
+    }
 
+  }
+.daBkgd{
+    /* background-image: url('./Images/auxcord.png'); */
+    background-attachment: fixed;
+    background-size: 90%;
+background-repeat: no-repeat;
+}
+#tvText{
+
+  /* border-radius: 5px; */
+  /* background: rgba(240,230,220, .7);
+  box-shadow: 0 0 8px rgba(0, 0, 0, .7); */
 }
 .lft {
     /* background-color: rgb(223, 222, 222); */
@@ -27,6 +39,7 @@
 }
 #smbox {
     width: 100%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .7);
 
 }
 
@@ -41,7 +54,7 @@
 }
 
 .navbar {
-    /* background-color: rgba(255, 255, 255, 0.296) !important; */
+    /* background-color: rgba(255, 255, 255, 0.196) !important; */
     z-index: 100;
     position: fixed;
 }
@@ -57,18 +70,20 @@
     /* text-align: center; */
     background-attachment: fixed;
 }
-
-/* #tvPic{
+/*
+ #tvPic{
     width: 100px;
     height: 400px;
-    background-image: url('./Images/watchingnetflix.jpg');
+    background-image: url('./Images/plug.png');
     background-attachment: fixed;
-    background-size: 100%;
+    margin-left: 40%;
+    background-size: 50%;
     background-repeat: no-repeat;
     background-position-x: 520px;
     background-position-y: 120px;
 
 }
+
 #soundPic{
     height: 400px;
     background-image: url('./Images/soundbar.jpg');
@@ -125,7 +140,7 @@
 }
 
 cursor-pointer {
-    cursor: url(./images/hammersmallshad.png), auto;
+    cursor: url(./images/hammersmallshadflip.png), auto;
 }
 
 
