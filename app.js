@@ -8,10 +8,10 @@
     $('.sidenav').sidenav();
   });
        
-  window.onload = function() {
-    document.getElementById('button').onclick = function() {
-      document.getElementById('modalOverlay').style.display = 'none'
-    };
+//   window.onload = function() {
+//     document.getElementById('button').onclick = function() {
+//       document.getElementById('modalOverlay').style.display = 'none'
+//     };
 
-}
+// }
 
