@@ -1,27 +1,31 @@
-html{
+html {
     scroll-behavior: smooth;
 }
+
 body {
     background-image: url('./Images/Light-paper-fibers-Seamless-Pattern.jpg');
     background-attachment: fixed;
     background-size: 20%;
     /* background-repeat: no-repeat; */
-
 }
-footer{
+
+footer {
     background-color: black;
     color: white;
     text-align: center;
 }
-#RGC{
+
+#RGC {
     background-color: #1e1e1e;
     font-weight: 100;
     font-size: 10px;
     padding: 5px;
 }
-p{
+
+p {
     padding: 5%;
 }
+
 #arrowDn {
     margin-left: 50%;
     margin-top: 10%;
@@ -34,14 +38,6 @@ p{
     50% {
         transform: translate(0, 8px);
     }
-}
-
-
-
-#tvText {
-    /* border-radius: 5px; */
-    /* background: rgba(240,230,220, .7);
-  box-shadow: 0 0 8px rgba(0, 0, 0, .7); */
 }
 
 .lft {
@@ -263,7 +259,6 @@ h1 {
     }
   } */
 
-
 iframe {
     margin-top: 8%;
     margin-left: 20%;
@@ -334,6 +329,114 @@ p {
     color: rgb(255, 188, 17) !important;
 }
 
+/* scroll events */
+
+/* .daBkgd{
+    display: none;
+} */
+hr{
+    color: white;
+}
+.scroll1 {
+    animation: bounceInLeft 1.5s 1;
+    /* background-color: yellow; */
+    display: block;
+}
+
+.scroll1Out {
+    display: none;
+}
+
+.scroll2 {
+    animation: bounceInRight 1.5s 1;
+    /* background-color: red; */
+    display: block;
+}
+
+.scroll2Out {
+    display: none;
+}
+
+.scroll3 {
+    animation: bounceIn 1.5s 1;
+    /* background-color: blue; */
+    display: block;
+}
+
+.scroll3Out {
+    display: none;
+}
+
+.scroll4 {
+    animation: bounceInUp 1.5s 1;
+    /* background-color: green; */
+    display: block;
+}
+
+.scroll4Out {
+    display: none;
+}
+
+.scroll5 {
+    animation: bounceIn 1.5s 1;
+    /* background-color: orange; */
+    display: block;
+}
+
+.scroll5Out {
+    display: none;
+}
+
+.scroll6 {
+    animation: bounceInLeft 1.5s 1;
+    /* background-color: gray; */
+    display: block;
+}
+
+.scroll6Out {
+    display: none;
+}
+
+.scroll7 {
+    animation: bounceInRight 1.5s 1;
+    /* background-color: yellow; */
+    display: block;
+}
+
+.scroll7Out {
+    display: none;
+}
+
+.scroll8 {
+    animation: bounceInUp 1.5s 1;
+    /* background-color: red; */
+    display: block;
+}
+
+.scroll8Out {
+    display: none;
+}
+
+.scroll9 {
+    animation: bounceInUp 1.5s 1;
+    /* background-color: blue; */
+    display: block;
+}
+
+.scroll9Out {
+    display: none;
+}
+
+.scroll10 {
+    animation: bounceIn 1.5s 1;
+    /* background-color: green; */
+    display: block;
+}
+
+.scroll10Out {
+    display: none;
+}
+
 /* media queries */
 
 @media only screen and (max-width: 992px) {
@@ -348,7 +451,6 @@ p {
         margin-left: 5%;
     }
     .navbar {}
-
 }
 
 @media only screen and (max-width: 768px) {
@@ -393,7 +495,6 @@ p {
     .navbar {
         background-color: rgb(0, 0, 0, 0.933) !important;
     }
-
 }
 
 @media only screen and (max-width: 572px) {
@@ -434,4 +535,3 @@ p {
         margin-left: 20%;
     }
 }
-
