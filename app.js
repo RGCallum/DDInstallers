@@ -46,11 +46,11 @@ function myFunction() {
     document.getElementById("myP6").className = "scroll6";
   } else {
     document.getElementById("myP6").className = "scroll6Out";
-  } if (document.body.scrollTop > 3150 || document.documentElement.scrollTop > 3150) {
+  } if (document.body.scrollTop > 2850 || document.documentElement.scrollTop > 2850) {
     document.getElementById("myP7").className = "scroll7";
   } else {
     document.getElementById("myP7").className = "scroll7Out";
-  }   if (document.body.scrollTop > 3750 || document.documentElement.scrollTop > 3750) {
+  }   if (document.body.scrollTop > 3150 || document.documentElement.scrollTop > 3150) {
     document.getElementById("myP8").className = "scroll8";
   } else {
     document.getElementById("myP8").className = "scroll8Out";
