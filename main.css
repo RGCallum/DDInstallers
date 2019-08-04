@@ -430,9 +430,9 @@ hr{
 
 .scroll9Out {
     display: none;
-} */
+}
 
-/* .scroll10 {
+.scroll10 {
     animation: bounceInLeft 1.5s 1;
     display: block;
 }
