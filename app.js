@@ -48,23 +48,14 @@ function myFunction() {
     document.getElementById("myP6").className = "scroll6Out";
   }
 
-  if (document.body.scrollTop > 2850 || document.documentElement.scrollTop > 2850) {
+  if (document.body.scrollTop > 3150 || document.documentElement.scrollTop > 3150) {
     document.getElementById("myP7").className = "scroll7";
   } else {
     document.getElementById("myP7").className = "scroll7Out";
-  }   if (document.body.scrollTop > 3150 || document.documentElement.scrollTop > 3150) {
+  }   if (document.body.scrollTop > 3750 || document.documentElement.scrollTop > 3750) {
     document.getElementById("myP8").className = "scroll8";
   } else {
     document.getElementById("myP8").className = "scroll8Out";
   }
-  // if (document.body.scrollTop > 2650 || document.documentElement.scrollTop > 2650) {
-  //   document.getElementById("myP9").className = "scroll9";
-  // } else {
-  //   document.getElementById("myP9").className = "scroll9Out";
-  // }
-  // if (document.body.scrollTop > 2950 || document.documentElement.scrollTop > 2950) {
-  //   document.getElementById("myP10").className = "scroll10";
-  // } else {
-  //   document.getElementById("myP10").className = "scroll10Out";
-  // }
+
 }

@@ -32,6 +32,12 @@ p {
     animation: bounce 1.5s infinite;
     /* background-attachment: fixed; */
 }
+#arrowDnAnim {
+    margin-left: 50%;
+    margin-top: 30%;
+    animation: bounce 1.5s infinite;
+    /* background-attachment: fixed; */
+}
 
 @keyframes bounce {
     0% {}
@@ -338,7 +344,7 @@ hr{
     color: white;
 }
 .scroll1 {
-    animation: bounceInLeft 1.5s 1;
+    animation: bounceInRight 1.5s 1;
     /* background-color: yellow; */
     display: block;
 }
@@ -348,7 +354,7 @@ hr{
 }
 
 .scroll2 {
-    animation: bounceInRight 1.5s 1;
+    animation: bounceInLeft 1.5s 1;
     /* background-color: red; */
     display: block;
 }
@@ -368,7 +374,7 @@ hr{
 }
 
 .scroll4 {
-    animation: bounceInUp 1.5s 1;
+    animation: bounceInLeft 1.5s 1;
     /* background-color: green; */
     display: block;
 }
@@ -378,7 +384,7 @@ hr{
 }
 
 .scroll5 {
-    animation: bounceIn 1.5s 1;
+    animation: bounceInRight 1.5s 1;
     /* background-color: orange; */
     display: block;
 }
@@ -388,7 +394,7 @@ hr{
 }
 
 .scroll6 {
-    animation: bounceInLeft 1.5s 1;
+    animation: bounceIn 1.5s 1;
     /* background-color: gray; */
     display: block;
 }
@@ -408,7 +414,7 @@ hr{
 }
 
 .scroll8 {
-    animation: bounceInUp 1.5s 1;
+    animation: bounceInLeft 1.5s 1;
     /* background-color: red; */
     display: block;
 }
@@ -417,25 +423,23 @@ hr{
     display: none;
 }
 
-.scroll9 {
-    animation: bounceInUp 1.5s 1;
-    /* background-color: blue; */
+/* .scroll9 {
+    animation: bounceInRight 1.5s 1;
     display: block;
 }
 
 .scroll9Out {
     display: none;
-}
+} */
 
-.scroll10 {
-    animation: bounceIn 1.5s 1;
-    /* background-color: green; */
+/* .scroll10 {
+    animation: bounceInLeft 1.5s 1;
     display: block;
 }
 
 .scroll10Out {
     display: none;
-}
+} */
 
 /* media queries */
 
