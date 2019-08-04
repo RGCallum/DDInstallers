@@ -107,7 +107,7 @@ a {
     height: 700px;
     background-repeat: no-repeat;
     /* text-align: center; */
-    background-attachment: scroll;
+    background-attachment: fixed;
 }
 
 /*
@@ -465,6 +465,8 @@ hr{
         background-image: url('./Images/tvBrickDark.png');
         background-position: center right -150px;
         background-size: cover !important;
+        background-attachment: scroll;
+
         /* text-align: center; */
     }
     .container {
