@@ -464,6 +464,7 @@ hr{
         background-color: transparent !important;
         background-image: url('./Images/tvBrickDark.png');
         background-position: center right -150px;
+        background-size: cover !important;
         /* text-align: center; */
     }
     .container {
