@@ -23,6 +23,7 @@ function myFunction() {
     document.getElementById("myP").className = "scroll1";
   } else {
     document.getElementById("myP").className = "scroll1Out";
+    
   }   if (document.body.scrollTop > 550 || document.documentElement.scrollTop > 550) {
     document.getElementById("myP2").className = "scroll2";
   } else {

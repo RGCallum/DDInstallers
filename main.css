@@ -29,17 +29,17 @@ p {
 #arrowDn {
     margin-left: 50%;
     margin-top: 10%;
-    animation: bounce 1.5s infinite;
+    animation: bounceArrow 1.2s infinite;
     /* background-attachment: fixed; */
 }
 #arrowDnAnim {
     margin-left: 50%;
     margin-top: 30%;
-    animation: bounce 1.5s infinite;
+    animation: bounceArrow 1.2s infinite;
     /* background-attachment: fixed; */
 }
 
-@keyframes bounce {
+@keyframes bounceArrow {
     0% {}
     50% {
         transform: translate(0, 8px);
