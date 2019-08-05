@@ -47,7 +47,7 @@ function myFunction() {
     document.getElementById("myP6").className = "scroll6";
   } else {
     document.getElementById("myP6").className = "scroll6Out";
-  } if (document.body.scrollTop > 3150 || document.documentElement.scrollTop > 3150) {
+  } if (document.body.scrollTop > 3250 || document.documentElement.scrollTop > 3250) {
     document.getElementById("myP7").className = "scroll7";
   } else {
     document.getElementById("myP7").className = "scroll7Out";
