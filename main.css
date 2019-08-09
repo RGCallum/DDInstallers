@@ -93,6 +93,7 @@ a {
     z-index: 100;
     position: fixed;
     height: 80px;
+    width: 100vw;
 }
 
 .dropdown-menu {
