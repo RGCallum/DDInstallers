@@ -20,6 +20,7 @@ footer {
     font-weight: 100;
     font-size: 10px;
     padding: 5px;
+    background:
 }
 
 p {
@@ -94,6 +95,7 @@ a {
     position: fixed;
     height: 80px;
     width: 100vw;
+    
 }
 
 .dropdown-menu {
